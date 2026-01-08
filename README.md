@@ -1,15 +1,8 @@
 # 🏠 PropVal-AI
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=750&lines=Enterprise+Real+Estate+Valuation+Engine;Automated+Valuation+Model+(AVM);Interpretable+Machine+Learning+Pipeline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=25&pause=1000&color=2F81F7&center=true&vCenter=true&width=1000&lines=Enterprise+Real+Estate+Valuation+Engine;Automated+Valuation+Model+(AVM);LATEST+STATUS:+Model+v2.0+Deployed+•+RMSE+Reduced+by+15%25" />
 </p>
-
-<div align="center">
-  <br>
-  <b>🚀 LATEST STATUS: </b> 
-  <samp>Model v2.0 Deployed • RMSE Reduced by 15% • Production Ready</samp>
-  <br><br>
-</div>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/216656971-9b47a2e2-6f7c-4b2f-b9cf-3c96b5e3f5a5.gif" width="100%"/>
@@ -23,12 +16,13 @@
 
 ---
 
-### 🚀 Motivation
-**PropVal-AI** solves the challenge of accurate real estate pricing. Unlike traditional linear models, this engine handles **non-linear relationships** and real-world data imperfections to provide transparent, interpretable valuations.
+## 📝 Introduction
+
+**PropVal-AI** is an enterprise-grade Automated Valuation Model (AVM) designed to solve the challenge of accurate real estate pricing. unlike traditional linear models, this engine handles **non-linear relationships** and real-world data imperfections to provide transparent, interpretable valuations for high-stakes financial decision-making.
 
 ---
 
-### 🧠 Features & Architecture
+## 🧠 Features & Architecture
 
 | Core Capabilities | Technical Pipeline |
 | :--- | :--- |
@@ -39,7 +33,8 @@
 
 ---
 
-### ⚡️ Usage
+## ⚡️ Usage
+
 <p align="center">
   <img src="https://i.imgur.com/QbLoGC8.gif" width="600" alt="Terminal execution animation"/>
 </p>
