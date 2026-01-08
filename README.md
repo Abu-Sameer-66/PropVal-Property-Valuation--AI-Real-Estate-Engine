@@ -1,47 +1,51 @@
-# 🏠 PropVal-AI
+# 🏠 PropVal-AI: Real Estate Valuation Engine
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=25&pause=1000&color=2F81F7&center=true&vCenter=true&width=1000&lines=Enterprise+Real+Estate+Valuation+Engine;Automated+Valuation+Model+(AVM);LATEST+STATUS:+Model+v2.0+Deployed+•+RMSE+Reduced+by+15%25" />
-</p>
+> **An Enterprise-grade Automated Valuation Model (AVM) designed to estimate real estate asset prices with high precision using Ensemble Machine Learning.**
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216656971-9b47a2e2-6f7c-4b2f-b9cf-3c96b5e3f5a5.gif" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Model-Gradient%20Boosting-success"/>
-  <img src="https://img.shields.io/badge/Python-3.9-blue"/>
-  <img src="https://img.shields.io/badge/License-MIT-green"/>
-</p>
+[![Status](https://img.shields.io/badge/Model-Gradient_Boosting-success)]()
+[![Python](https://img.shields.io/badge/Python-3.9-blue)]()
+[![License](https://img.shields.io/badge/License-MIT-green)]()
 
 ---
 
-## 📝 Introduction
+### 🚀 Overview
+Predicting housing prices requires more than just square footage. **PropVal-AI** leverages advanced regression techniques to analyze **79+ variables**, including zoning classification, basement quality, and proximity to arterial roads, to generate a fair market value estimate.
 
-**PropVal-AI** is an enterprise-grade Automated Valuation Model (AVM) designed to solve the challenge of accurate real estate pricing. unlike traditional linear models, this engine handles **non-linear relationships** and real-world data imperfections to provide transparent, interpretable valuations for high-stakes financial decision-making.
-
----
-
-## 🧠 Features & Architecture
-
-| Core Capabilities | Technical Pipeline |
-| :--- | :--- |
-| ✅ **79+ Features:** Handles heterogeneous data | **1️⃣ Target Transform:** `Log(1 + SalePrice)` for stability |
-| 🧩 **Smart Imputation:** Median (Num) & `None` (Cat) | **2️⃣ Processing:** One-Hot Encoding & Feature Expansion |
-| 📈 **Ensemble ML:** Gradient Boosting Regressor | **3️⃣ Training:** RMSE minimization with Decision Trees |
-| 🔍 **Explainable:** Feature importance ranking | **4️⃣ Deployment:** Modular & scalable architecture |
+This engine solves the **"Black Box"** problem by providing interpretable feature importance—showing exactly *why* a property is valued at a specific price.
 
 ---
 
-## ⚡️ Usage
+### ⚙️ Technical Architecture
+I engineered this system using a 4-stage pipeline:
 
-<p align="center">
-  <img src="https://i.imgur.com/QbLoGC8.gif" width="600" alt="Terminal execution animation"/>
-</p>
+1.  **Data Normalization:** Applied `Log(1+x)` transformation to the target variable (`SalePrice`) to correct skewness and improve statistical stability.
+2.  **Smart Imputation:** Handled missing data by distinguishing between "Missing Randomly" (imputed with Median) vs "Feature Not Present" (imputed with None).
+3.  **One-Hot Encoding:** Converted categorical zoning and structural data into a machine-readable format (expanding to 200+ features).
+4.  **Gradient Boosting Regressor:** Utilized an ensemble of weak prediction models (Decision Trees) to minimize the Loss Function (RMSE).
 
-```bash
-# 1. Install Dependencies
-pip install -r requirements.txt
+---
 
-# 2. Run Pipeline
-python src/train_model.py
+### 📊 Performance & Insights
+The model achieves high accuracy by focusing on key value drivers.
+* **Accuracy (R²):** **0.89+** on validation data.
+* **Key Drivers Identified:**
+    * `OverallQual`: Material and finish quality.
+    * `GrLivArea`: Above-grade living area.
+    * `TotalBsmtSF`: Total basement area.
+
+---
+
+### 🛠️ Tech Stack
+| Component | Library | Usage |
+| :--- | :--- | :--- |
+| **Core Logic** | `Python` | Scripting and logic control. |
+| **ML Engine** | `Scikit-Learn` | Gradient Boosting, Train/Test Split. |
+| **Data Ops** | `Pandas / NumPy` | Vectorized operations and cleaning. |
+| **Visualization** | `Seaborn` | Residual plots and Feature Importance charts. |
+
+---
+
+### 💻 How to Run
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine.git](https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine.git)
