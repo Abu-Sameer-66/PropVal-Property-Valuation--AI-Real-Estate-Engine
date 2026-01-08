@@ -1,47 +1,115 @@
-# # 🏠 PropVal-AI: Real Estate Valuation Engine
+# 🏠 PropVal-AI  
+### Enterprise-Grade Real Estate Valuation Engine (AVM)
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=false&vCenter=true&width=500&lines=Real+Estate+Valuation+Engine;Powered+by+Gradient+Boosting;Predicting+Prices+with+Precision;79%2B+Feature+Analysis" alt="Typing SVG" /></a>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216656971-9b47a2e2-6f7c-4b2f-b9cf-3c96b5e3f5a5.gif" width="500"/>
+</p>
 
-> **An Enterprise-grade Automated Valuation Model (AVM) designed to estimate real estate asset prices with high precision using Ensemble Machine Learning.**
+<p align="center">
+  <b>An Automated Valuation Model (AVM) that estimates real estate prices using advanced Ensemble Machine Learning with interpretability.</b>
+</p>
 
-[![Status](https://img.shields.io/badge/Model-Gradient_Boosting-success?style=for-the-badge&logo=scikit-learn)]()
-[![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)]()
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)]()
+<p align="center">
+  <img src="https://img.shields.io/badge/Model-Gradient%20Boosting-success"/>
+  <img src="https://img.shields.io/badge/Python-3.9-blue"/>
+  <img src="https://img.shields.io/badge/ML-Scikit--Learn-orange"/>
+  <img src="https://img.shields.io/badge/License-MIT-green"/>
+</p>
 
 ---
 
-### 🚀 Overview
-Predicting housing prices requires more than just square footage. **PropVal-AI** leverages advanced regression techniques to analyze **79+ variables**, including zoning classification, basement quality, and proximity to arterial roads, to generate a fair market value estimate.
+## 🚀 Project Motivation
 
-This engine solves the **"Black Box"** problem by providing interpretable feature importance—showing exactly *why* a property is valued at a specific price.
+Real estate valuation is a **high-stakes financial problem** where inaccurate pricing leads to poor investment decisions. Traditional models struggle with **non-linear relationships** between structural, locational, and qualitative features.
+
+**PropVal-AI** is engineered to:
+- Accurately estimate property values  
+- Handle real-world data imperfections  
+- Provide **transparent, interpretable predictions**  
+
+This project reflects **production-grade ML practices**, not a notebook-only experiment.
 
 ---
 
-### ⚙️ Technical Architecture & Workflow
+## 🧠 Core Features
 
+- Handles **79+ heterogeneous features**
+- Robust missing-value strategy
+- Log-transformed target for statistical stability
+- Ensemble-based regression (Gradient Boosting)
+- Feature importance for explainability
+- Modular & scalable architecture
 
+---
 
-[Image of machine learning pipeline diagram]
+## ⚙️ System Architecture
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216656963-6c6b5c4a-f39d-4b8b-8d0e-9f6b10b53b6b.gif" width="500"/>
+</p>
 
-The system operates on a rigorous 4-stage pipeline designed to minimize error and maximize interpretability.
+### 1️⃣ Target Transformation
+- Applied **Log(1 + SalePrice)** to reduce skewness and stabilize variance
 
-```mermaid
-graph TD
-    A[📂 Raw Housing Data] -->|Ingest| B{Data Preprocessing}
-    B --> C[📉 Normalization]
-    C -->|Log(1+x)| D[Target Variable: SalePrice]
-    B --> E[🧩 Smart Imputation]
-    E -->|Median| F[Missing Randomly]
-    E -->|None| G[Feature Not Present]
-    
-    F & G --> H[⚙️ Feature Engineering]
-    H -->|One-Hot Encoding| I[Categorical Data]
-    I --> J[Feature Vector (200+ Dims)]
-    
-    J --> K[🧠 Gradient Boosting Regressor]
-    K -->|Minimize RMSE| L[🏆 Final Price Prediction]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style K fill:#bbf,stroke:#333,stroke-width:2px
-    style L fill:#bfb,stroke:#333,stroke-width:2px
+### 2️⃣ Intelligent Missing Value Handling
+- **Numerical (Missing Randomly):** Median Imputation  
+- **Categorical (Feature Absent):** Explicit `None` category  
+
+### 3️⃣ Feature Engineering
+- One-Hot Encoding for zoning, structure, and quality features  
+- Expanded to **200+ machine-readable variables**
+
+### 4️⃣ Model Training
+- **Gradient Boosting Regressor**
+- Ensemble of decision trees minimizing RMSE
+- Captures complex non-linear interactions
+
+---
+
+## 📊 Model Performance
+
+| Metric | Result |
+|------|-------|
+| **R² Score** | **0.89+** |
+| **Error Metric** | RMSE |
+| **Validation** | Train / Validation Split |
+
+### 🔍 Key Value Drivers
+- `OverallQual` – Construction quality  
+- `GrLivArea` – Above-grade living area  
+- `TotalBsmtSF` – Basement size  
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Tool | Purpose |
+|-----|------|--------|
+| Language | Python | Core pipeline |
+| ML | Scikit-Learn | Gradient Boosting |
+| Data | Pandas, NumPy | Processing |
+| Visualization | Seaborn, Matplotlib | Diagnostics |
+| Environment | Jupyter / VS Code | Development |
+
+---
+
+## 📁 Project Structure
+
+```text
+PropVal-AI/
+│
+├── src/
+│   └── train_model.py
+│
+├── notebooks/
+│   └── eda_and_modeling.ipynb
+│
+├── data/
+│   ├── train.csv
+│   └── test.csv
+│
+├── outputs/
+│   └── model_metrics.txt
+│
+├── requirements.txt
+└── README.md
