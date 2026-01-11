@@ -1,90 +1,52 @@
-# 🏠 PropVal-AI: Real Estate Valuation Engine
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=182848,4b6cb7&height=250&section=header&text=PropVal-AI%20Engine&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Enterprise-Grade%20Real%20Estate%20Valuation&descAlignY=60&descAlign=50" width="100%"/>
+</div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=2E86C1&center=false&vCenter=true&width=600&lines=Enterprise-grade+Automated+Valuation+Model;Predicting+Prices+with+Gradient+Boosting;Unlocking+Feature+Interpretability;Precision+Real+Estate+Analytics)](https://git.io/typing-svg)
-> **An Enterprise-grade Automated Valuation Model (AVM) designed to estimate real estate asset prices with high precision using Ensemble Machine Learning.**
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=4b6cb7&center=true&vCenter=true&width=600&lines=Precision+Real+Estate+Analytics;Gradient+Boosting+Architecture;Unlocking+Feature+Interpretability;From+Black-Box+to+Glass-Box+AI"/>
+</div>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Model-Gradient_Boosting-success?style=for-the-badge&logo=scikit-learn" />
-  <img src="https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Accuracy-89%25-orange?style=for-the-badge" />
-</p>
+<br/>
+
+<div align="center">
+  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
+    <img src="https://img.shields.io/badge/Model-Gradient_Boosting-4b6cb7?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
+    <img src="https://img.shields.io/badge/Python-3.9-182848?style=for-the-badge&logo=python&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
+    <img src="https://img.shields.io/badge/Accuracy-89%25-FF0080?style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
+    <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
+  </a>
+</div>
 
 ---
 
-## 🚀 Overview
+## 🚀 Executive Overview
 
-Predicting housing prices requires more than just square footage. **PropVal-AI** leverages advanced regression techniques to analyze **79+ variables**, including zoning classification, basement quality, and proximity to arterial roads, to generate a fair market value estimate.
+Predicting housing prices requires more than just square footage. **PropVal-AI** is a production-ready Automated Valuation Model (AVM) that leverages **Ensemble Learning** to analyze **79+ complex variables**—from zoning laws to basement finish quality.
 
-This engine solves the **"Black Box"** problem by providing interpretable feature importance—showing exactly *why* a property is valued at a specific price.
+Unlike black-box algorithms, this engine provides **Explainable AI (XAI)** metrics, showing exactly *why* a property is valued at a specific price.
 
 ---
 
 ## ⚙️ Technical Architecture
 
-I engineered this system using a robust 4-stage pipeline designed to handle the noise and sparsity typical of real estate data.
+[Image of gradient boosting decision tree process]
 
+I engineered a robust 4-stage pipeline designed to handle the noise and sparsity typical of real estate data.
 
-
-### 1. Data Normalization & Mathematics
-Real estate prices often follow a right-skewed distribution. To correct this and stabilize variance, I applied a Logarithmic Transformation to the target variable $SalePrice$:
-
-$$y' = \log(1 + y)$$
-
-This ensures that the model minimizes relative error rather than absolute error, preventing expensive properties from biasing the model.
-
-### 2. Smart Imputation Strategy
-Handling missing data is critical. I implemented a split-logic imputer:
-* **Missing Randomly:** Numerical features (e.g., `LotFrontage`) imputed using the **Median** to resist outliers.
-* **Feature Not Present:** Categorical features (e.g., `PoolQC`) where "NaN" actually means "No Pool," imputed with **None/0**.
-
-### 3. Dimensionality Management (One-Hot Encoding)
-Converted categorical zoning and structural data into a machine-readable format, expanding the dataset to **200+ features** while managing sparsity.
-
-### 4. The Model: Gradient Boosting Regressor
-Utilized an ensemble of weak prediction models (Decision Trees). The model builds trees sequentially, where each new tree helps to correct errors made by the previously trained tree.
-
----
-
-## 📊 Performance & Insights
-
-The model achieves high accuracy by focusing on key value drivers, validated against a hold-out test set.
-
-| Metric | Score | Note |
-| :--- | :--- | :--- |
-| **R² (Validation)** | **0.89** | Explains 89% of the variance in price. |
-| **RMSE** | **0.13** | Low Log-Root-Mean-Squared-Error. |
-
-### 🔑 Key Value Drivers Identified
-The model identified these features as the strongest predictors of property value:
-1.  **`OverallQual`**: Material and finish quality (Rating 1-10).
-2.  **`GrLivArea`**: Above-grade (ground) living area square footage.
-3.  **`TotalBsmtSF`**: Total square footage of the basement area.
-
----
-
-## 🛠️ Tech Stack
-
-| Component | Library | Role & Usage |
-| :--- | :--- | :--- |
-| **Core Logic** | `Python 3.9` | Scripting and logic control. |
-| **ML Engine** | `Scikit-Learn` | Gradient Boosting Regressor, GridSearchCV, Pipelines. |
-| **Data Ops** | `Pandas` / `NumPy` | Vectorized operations, dataframe slicing, and cleaning. |
-| **Visualization** | `Seaborn` / `Matplotlib` | Residual plots, Heatmaps, and Feature Importance charts. |
-
----
-
-## 📂 Repository Structure
-
-```text
-PropVal-AI/
-├── data/
-│   ├── train.csv          # Historical training data
-│   └── test.csv           # Unseen data for validation
-├── notebooks/
-│   └── EDA_and_Model.ipynb # Jupyter notebook for experimentation
-├── src/
-│   ├── preprocessing.py   # Imputation and encoding logic
-│   └── train.py           # Model training script
-├── README.md              # Project Documentation
-└── requirements.txt       # Dependencies
+```mermaid
+graph LR
+    A[Raw Housing Data] -->|Cleaning| B(Smart Imputation)
+    B -->|Transformation| C{Feature Engineering}
+    C -->|Log(1+x)| D[Normalization]
+    C -->|One-Hot| E[Encoding]
+    D --> F[Gradient Boosting Regressor]
+    E --> F
+    F --> G[Price Prediction $$]
+    style F fill:#182848,stroke:#4b6cb7,stroke-width:2px,color:#fff
+    style G fill:#4b6cb7,stroke:#182848,stroke-width:2px,color:#fff
