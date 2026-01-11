@@ -1,52 +1,66 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=182848,4b6cb7&height=250&section=header&text=PropVal-AI%20Engine&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Enterprise-Grade%20Real%20Estate%20Valuation&descAlignY=60&descAlign=50" width="100%"/>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=4b6cb7&center=true&vCenter=true&width=600&lines=Precision+Real+Estate+Analytics;Gradient+Boosting+Architecture;Unlocking+Feature+Interpretability;From+Black-Box+to+Glass-Box+AI"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
-    <img src="https://img.shields.io/badge/Model-Gradient_Boosting-4b6cb7?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
-    <img src="https://img.shields.io/badge/Python-3.9-182848?style=for-the-badge&logo=python&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
-    <img src="https://img.shields.io/badge/Accuracy-89%25-FF0080?style=for-the-badge"/>
-  </a>
-  <a href="https://github.com/Abu-Sameer-66/PropVal-AI-Real-Estate-Engine">
-    <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge"/>
-  </a>
-</div>
+<!-- Animated Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=PropVal-AI&fontAlign=50&fontAlignY=40&color=0:0f2027,50:203a43,100:2c5364&fontColor=ffffff&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlign=50&descAlignY=65&animation=fadeIn" />
+</p>
 
 ---
 
-## 🚀 Executive Overview
-
-Predicting housing prices requires more than just square footage. **PropVal-AI** is a production-ready Automated Valuation Model (AVM) that leverages **Ensemble Learning** to analyze **79+ complex variables**—from zoning laws to basement finish quality.
-
-Unlike black-box algorithms, this engine provides **Explainable AI (XAI)** metrics, showing exactly *why* a property is valued at a specific price.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=9B5DE5&center=true&vCenter=true&width=900&lines=Enterprise-Grade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
+</p>
 
 ---
 
-## ⚙️ Technical Architecture
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-Gradient%20Boosting-9B5DE5?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3.9-F15BB5?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Accuracy-89%25-00BBF9?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-00F5D4?style=for-the-badge"/>
+</p>
 
-[Image of gradient boosting decision tree process]
+---
 
-I engineered a robust 4-stage pipeline designed to handle the noise and sparsity typical of real estate data.
+## 🧠 What is PropVal-AI?
 
-```mermaid
-graph LR
-    A[Raw Housing Data] -->|Cleaning| B(Smart Imputation)
-    B -->|Transformation| C{Feature Engineering}
-    C -->|Log(1+x)| D[Normalization]
-    C -->|One-Hot| E[Encoding]
-    D --> F[Gradient Boosting Regressor]
-    E --> F
-    F --> G[Price Prediction $$]
-    style F fill:#182848,stroke:#4b6cb7,stroke-width:2px,color:#fff
-    style G fill:#4b6cb7,stroke:#182848,stroke-width:2px,color:#fff
+> **PropVal-AI** is an **enterprise-grade Automated Valuation Model (AVM)** that predicts residential real estate prices with high precision using **ensemble machine learning**.
+
+Unlike naive regression systems, this engine:
+- Handles **high-dimensional structured data**
+- Preserves **interpretability**
+- Minimizes **price skew bias**
+- Mirrors **real-world valuation logic**
+
+Built for **data scientists, ML engineers, and real estate analytics teams**.
+
+---
+
+## ⚡ Why This Project Matters
+
+Real estate valuation is not just prediction — it is **trust**.
+
+PropVal-AI explicitly addresses:
+- ❌ Black-box ML opacity  
+- ❌ Outlier-dominated pricing  
+- ❌ Sparse & noisy categorical data  
+
+By combining **statistical rigor** with **model explainability**, this system produces valuations that are both **accurate and defensible**.
+
+---
+
+## 🏗️ System Architecture
+
+```text
+Raw Data
+   │
+   ├── Missing Value Semantics
+   │
+   ├── Log Target Stabilization
+   │
+   ├── Feature Engineering
+   │
+   ├── One-Hot Encoding (200+ features)
+   │
+   └── Gradient Boosting Regressor
+             │
+             └── Interpretable Predictions
+
