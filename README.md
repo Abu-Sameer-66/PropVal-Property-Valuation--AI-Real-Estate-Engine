@@ -14,8 +14,7 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ML-Gradient%20Boosting-32505E
-?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ML-Gradient%20Boosting-32505E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3.9-F15BB5?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Accuracy-89%25-00BBF9?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/License-MIT-00F5D4?style=for-the-badge"/>
