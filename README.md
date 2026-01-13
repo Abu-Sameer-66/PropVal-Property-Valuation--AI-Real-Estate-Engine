@@ -22,6 +22,7 @@
 
 ---
 
+
 ## 🧠 What is PropVal-AI?
 
 > **PropVal-AI** is an **enterprise-grade Automated Valuation Model (AVM)** that predicts residential real estate prices with high precision using **ensemble machine learning**.
