@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=0:0f2027&center=true&vCenter=true&width=900&lines=EnterpriseGrade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=547578&center=true&vCenter=true&width=900&lines=EnterpriseGrade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
 </p>
 
 ---
