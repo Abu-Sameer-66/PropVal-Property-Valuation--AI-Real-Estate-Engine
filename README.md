@@ -1,6 +1,6 @@
 <!-- Animated Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=PropVal-AI&fontAlign=50&fontAlignY=40&color=60BEA5,C6CA53,DCCA41,9C4994&fontColor=BBC1B9&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlign=50&descAlignY=65&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=PropVal-AI&fontAlign=50&fontAlignY=40&colorlist=60BEA5,C6CA53,DCCA41,9C4994&fontColor=BBC1B9&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlign=50&descAlignY=65&animation=fadeIn" />
 </p>
 
 ---
