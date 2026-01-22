@@ -1,12 +1,12 @@
 <!-- Animated Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=PropVal-AI&fontAlign=50&fontAlignY=40&colorlist=60BEA5,C6CA53,DCCA41,9C4994&fontColor=BBC1B9&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlign=50&descAlignY=65&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=PropVal-AI&fontAlign=50&fontAlignY=40&ColorList=896A15,6E8915,98351F&fontColor=BBC1B9&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlign=50&descAlignY=65&animation=fadeIn" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=547578&center=true&vCenter=true&width=900&lines=EnterpriseGrade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=BBC1B9&center=true&vCenter=true&width=900&lines=EnterpriseGrade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
 </p>
 
 ---
