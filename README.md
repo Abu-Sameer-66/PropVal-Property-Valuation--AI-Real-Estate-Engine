@@ -1,12 +1,10 @@
 <!-- Animated Header -->
 <!-- Light Mode -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&colors=896A15,6E8915,98351F&text=PropVal-AI&v=light" />
-</p>
-
-<!-- Dark Mode -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&colors=0F2027,203A43,2C5364&text=PropVal-AI&v=dark" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&height=220&text=PropVal-AI&fontAlign=50&fontAlignY=40&colors=896A15,6E8915,98351F&fontColor=BBC1B9&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlign=50&descAlignY=65&animation=fadeIn&v=2"
+    alt="PropVal-AI Banner"
+  />
 </p>
 
 
