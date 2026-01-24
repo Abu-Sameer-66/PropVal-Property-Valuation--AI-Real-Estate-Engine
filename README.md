@@ -3,15 +3,15 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=BBC1B9&center=true&vCenter=true&width=900&lines=EnterpriseGrade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=ffffff&center=true&vCenter=true&width=900&lines=EnterpriseGrade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
 </p>
 
 ---
 
 <p align="center">
   <img src="https://img.shields.io/badge/ML-Gradient%20Boosting-11998e?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3.9-32505E?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Accuracy-89%25-487489?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3.9-C97EB6?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Accuracy-89%25-84C2B0?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/License-MIT-76A2B7?style=for-the-badge"/>
 </p>
 
