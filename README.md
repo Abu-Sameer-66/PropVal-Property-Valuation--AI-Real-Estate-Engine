@@ -1,7 +1,7 @@
 <!-- Animated Header -->
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=PropVal-AI&fontAlign=50&fontAlignY=40&Colorlist=6AD7CA&fontColor=BBC1B9&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlign=50&descAlignY=65&animation=fadeIn" /> 
-</p>
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00c6ff,0072ff,8F246A&height=280&section=header&text=PropVal-AI&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Next-Gen%20Real%20Estate%20Valuation%20Engine&descAlignY=60&descAlign=50" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&pause=900&color=BBC1B9&center=true&vCenter=true&width=900&lines=EnterpriseGrade+Automated+Valuation+Model;Gradient+Boosting+Powered+Price+Prediction;Interpretable+Machine+Learning+for+Real+Estate;Built+for+Scalability+%7C+Built+for+Trust" />
