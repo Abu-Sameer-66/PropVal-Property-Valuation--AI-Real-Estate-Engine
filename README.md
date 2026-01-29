@@ -12,10 +12,7 @@
   <img src="https://img.shields.io/badge/Accuracy-89%25-84C2B0?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/License-MIT-76A2B7?style=for-the-badge"/>
 </p>
-
 ---
-
-
 ## 🧠 What is PropVal-AI?
 
 > **PropVal-AI** is an **enterprise-grade Automated Valuation Model (AVM)** that predicts residential real estate prices with high precision using **ensemble machine learning**.
